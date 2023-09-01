@@ -27,12 +27,26 @@ const questionsList = [
     question: "What is My Favourite Junk Food ?",
     options: ["Burger", "Noodles", "Samosa"],
     answer: "samosa"
+  },
+  {
+    question: "Which Degree Am I Pursuing?",
+    options: ["BTECH", "BCA", "BSC"],
+    answer: "bca"
   }
-
 ];
 
 // User's Score
 let userScore = 0;
+let highestScorers=[
+  {
+    nameOfPlayer:"aman",
+    score:6
+  },
+  {
+    nameOfPlayer:"kamal",
+    score:3
+  }
+];
 
 
 
@@ -91,15 +105,19 @@ function finalResult(){
   // Clear Console
   console.clear();
 
-  // Display final Result and score
-  if (userScore > 0) {
-    console.log("\n🤩🤩🍰🍰 Yupee !!! You Won the Game......");
-  } else {
-    console.log("\n🤦🤦🥺🥺 Ooo !!! You Loss the Game......");
+  // Final Score
+  console.log("\n🤩 Your Final Score => " + userScore);
+
+  // Show Highest Scorers
+  console.log("\n🥇 ----- Highest Scorers ---- 🥇\n");
+  for(let i=0;i < highestScorers.length; i++){
+    console.log("_________________________________");
+    console.log("Name => " + highestScorers[i].nameOfPlayer);
+    console.log("Scored => " + highestScorers[i].score);
   }
 
-  // Final Score
-  console.log("\n📋 Your Final Score => " + userScore);
+  console.log("\n ⚠️ NOTE - IF YOU HAVE BEATEN ONE OF THE THE HIGHEST SCORERS THAN SEND ME SCREENSHOT OF YOUR SCORES AND YOUR NAME, SO I WILL UPDATE THE HIGHEST SCORERS BOARD");
+  console.log("\n👉 VISIT HERE \"https://webwithaman.netlify.app\" ON MY PORTFOLIO AND CONTACT ME VIA ANY MEDIA ");
 
   console.log("\n............................................................\n");
 
