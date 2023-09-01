@@ -1,3 +1,6 @@
+/////////////////// A CLI Quiz App About Me //////////////////////
+
+
 // Get readline-sync package
 const readlineSync = require("readline-sync");
 
@@ -6,32 +9,32 @@ const questionsList = [
   {
     question: "What is My Name ?",
     options: ["Aman", "Aniket", "Raman"],
-    answer: "aman"
+    answer: "Aman"
   },
   {
     question: "Which is My Favourite Programming Language ?",
     options: ["C", "JS", "JAVA"],
-    answer: "js"
+    answer: "JS"
   },
   {
-    question: "Who is My Favourite Actor ?",
-    options: ["Shahrukh Khan", "Salman Khan", "Hrithik Roshan"],
-    answer: "shahrukh khan"
+    question: "Who is My Favourite Superhero ?",
+    options: ["Shaktimaan", "Superman", "Spiderman"],
+    answer: "Shaktimaan"
   },
   {
-    question: "What I Like Most?",
+    question: "What I Like Most ?",
     options: ["Eating", "Sleeping", "Playing"],
-    answer: "sleeping"
+    answer: "Sleeping"
   },
   {
     question: "What is My Favourite Junk Food ?",
     options: ["Burger", "Noodles", "Samosa"],
-    answer: "samosa"
+    answer: "Samosa"
   },
   {
-    question: "Which Degree Am I Pursuing?",
+    question: "Which Degree Am I Pursuing ?",
     options: ["BTECH", "BCA", "BSC"],
-    answer: "bca"
+    answer: "BCA"
   }
 ];
 
@@ -115,11 +118,11 @@ function finalResult(){
     console.log("Name => " + highestScorers[i].nameOfPlayer);
     console.log("Scored => " + highestScorers[i].score);
   }
-  console.log("_________________________________");
-
+  console.log("_________________________________\n");
+  
 
   console.log("\n⚠️  NOTE - IF YOU HAVE BEATEN ONE OF THE THE HIGHEST SCORERS THAN SEND ME SCREENSHOT OF YOUR SCORES AND YOUR NAME, SO I WILL UPDATE THE HIGHEST SCORERS BOARD");
-  console.log("\n👉  VISIT HERE \"https://webwithaman.netlify.app\" ON MY PORTFOLIO AND CONTACT ME VIA ANY MEDIA ");
+  console.log("\n👉 VISIT HERE \"https://webwithaman.netlify.app\" ON MY PORTFOLIO AND CONTACT ME VIA ANY MEDIA ");
 
   console.log("\n............................................................\n");
 
