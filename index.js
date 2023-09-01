@@ -111,13 +111,15 @@ function finalResult(){
   // Show Highest Scorers
   console.log("\n🥇 ----- Highest Scorers ---- 🥇\n");
   for(let i=0;i < highestScorers.length; i++){
-    console.log("_________________________________");
+    console.log("_________________________________\n");
     console.log("Name => " + highestScorers[i].nameOfPlayer);
     console.log("Scored => " + highestScorers[i].score);
   }
+  console.log("_________________________________");
 
-  console.log("\n ⚠️ NOTE - IF YOU HAVE BEATEN ONE OF THE THE HIGHEST SCORERS THAN SEND ME SCREENSHOT OF YOUR SCORES AND YOUR NAME, SO I WILL UPDATE THE HIGHEST SCORERS BOARD");
-  console.log("\n👉 VISIT HERE \"https://webwithaman.netlify.app\" ON MY PORTFOLIO AND CONTACT ME VIA ANY MEDIA ");
+
+  console.log("\n⚠️  NOTE - IF YOU HAVE BEATEN ONE OF THE THE HIGHEST SCORERS THAN SEND ME SCREENSHOT OF YOUR SCORES AND YOUR NAME, SO I WILL UPDATE THE HIGHEST SCORERS BOARD");
+  console.log("\n👉  VISIT HERE \"https://webwithaman.netlify.app\" ON MY PORTFOLIO AND CONTACT ME VIA ANY MEDIA ");
 
   console.log("\n............................................................\n");
 
